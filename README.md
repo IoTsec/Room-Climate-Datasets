@@ -2,9 +2,9 @@
 
 [UNDER CONSTRUCTION]
 
-Room climate data, i.e., temperature and relative humidity, is supected to leak privacy-sensitive information, e.g., the number of occupants in the room or even the activity of the occupants. We evaluated this privacy threat with a study, in which we measured room climate data while one or two occupant(s) performed a pre-defined sequence of tasks.
+Room climate data, i.e., temperature and relative humidity, is supected to leak privacy-sensitive information, e.g., the number of occupants in the room or even the activity of these occupants. We evaluated this privacy threat with an experimental study, in which we measured room climate data while one or two occupant(s) performed a pre-defined sequence of tasks.
 
-To encourage further research on these issues, we publish our collected sensor data (with groundtruth) as open data sets in this repository. If you use this data in a publication, please reference [1].
+To encourage further research on IoT privacy issues, we publish our collected sensor data (with groundtruth) as open data sets in this repository. If you use these datasets in a publication, please reference [1].
 
 ## Experimental Setup
 
@@ -15,22 +15,25 @@ For more details about the experimental design, please see our publication [1], 
 
 ## Format of Data
 
-Each measurement file contains a series of subsequential room climate measurements. 
+The datasets are split according to their location in the directories `datasets-location_X`.
+Each measurement file `room_climate-location_X-measurementYY.csv` contains a series of subsequential room climate measurements. 
 
 Each measurement consists of following information:
 
-* Entry ID
-* Absolute timestamp [ms]
-* Relative timestamp [s]
-* Node ID
-* Temperature [°C]
-* Relative Humidity [%]
-* Light Sensor 1 (Wavelength) [nm]
-* Light Sensor 2 (Wavelength) [nm]
-* Number of occupants (0, 1, 2)
-* Activity of occupant(s) (0 = n/a, 1 = read, 2 = stand, 3 = walk, 4 = work)
-* State of Door (0 = closed, 1 = open)
-* State of Window (0 = closed, 1 = open)
+`<EID>, <AbsT>, <RelT>, <NID>, <Temp>, <RelH>, <L1>, <L2>, <Occ>, <Act>, <Door>, <Win>`
+
+* `<EID>`: Entry ID
+* `<AbsT>`: Absolute timestamp [ms]
+* `<RelT>`: Relative timestamp [s]
+* `<NID>`: Node ID
+* `<Temp>`: Temperature [°C]
+* `<RelH>`: Relative Humidity [%]
+* `<L1>`: Light Sensor 1 (Wavelength) [nm]
+* `<L2>`: Light Sensor 2 (Wavelength) [nm]
+* `<Occ>`: Number of occupants (0, 1, 2)
+* `<Act>`: Activity of occupant(s) (0 = n/a, 1 = read, 2 = stand, 3 = walk, 4 = work)
+* `<Door>`: State of Door (0 = closed, 1 = open)
+* `<Win>`: State of Window (0 = closed, 1 = open)
 
 ## Publication
 

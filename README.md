@@ -11,7 +11,7 @@ To encourage further research on these issues, we publish our collected sensor d
 We collected room climate data at three different locations in form of controlled experiments. The locations are denoted as A, B, and C. 
 The floor plan of each location can found in this repository.
 
-For more details, please see our publication [1].
+For more details about the experimental design, please see our publication [1], Section 4.
 
 ## Format of Data
 

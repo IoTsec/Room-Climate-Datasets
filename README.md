@@ -17,6 +17,6 @@ Each measurement consists of following information:
 * Light Sensor 1 (Wavelength) [nm]
 * Light Sensor 2 (Wavelength) [nm]
 * Number of occupants
-* Activity
-* State of Door
-* State of Window
+* Activity of occupant(s) (0 = n/a, 1 = read, 2 = stand, 3 = walk, 4 = work)
+* State of Door (0 = closed, 1 = open)
+* State of Window (0 = closed, 1 = open)

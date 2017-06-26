@@ -2,14 +2,13 @@
 
 [UNDER CONSTRUCTION]
 
-Room climate data, i.e., temperature and relative humidity, is supected to leak privacy-sensitive information, e.g., the number of occupants in the room or even the activity of the occupants. We evaluated this privacy threat by running a study in which we measured room climate while a occupant performed a pre-defined series of tasks.
+Room climate data, i.e., temperature and relative humidity, is supected to leak privacy-sensitive information, e.g., the number of occupants in the room or even the activity of the occupants. We evaluated this privacy threat with a study, in which we measured room climate data while one or two occupant(s) performed a pre-defined sequence of tasks.
 
 To encourage further research on these issues, we publish our collected sensor data (with groundtruth) as open data sets in this repository. If you use this data in a publication, please reference [1].
 
 ## Experimental Setup
 
 We collected room climate data at three different locations in form of controlled experiments. The locations are denoted as A, B, and C. 
-
 The floor plan of each location can found in this repository.
 
 For more details, please see our publication [1].

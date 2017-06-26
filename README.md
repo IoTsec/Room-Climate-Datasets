@@ -2,7 +2,15 @@
 
 [UNDER CONSTRUCTION]
 
-## Format of data sets
+## Experimental Setup
+
+We collected room climate data at three different locations under controlled conditions. The locations are denoted as A, B, and C. 
+
+The floor plan of each location can found in this repository.
+
+For more details, please see our publication.
+
+## Format of Data
 
 Each measurement file contains a series of subsequential room climate measurements. 
 
@@ -20,3 +28,7 @@ Each measurement consists of following information:
 * Activity of occupant(s) (0 = n/a, 1 = read, 2 = stand, 3 = walk, 4 = work)
 * State of Door (0 = closed, 1 = open)
 * State of Window (0 = closed, 1 = open)
+
+## Publication
+
+

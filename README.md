@@ -8,7 +8,7 @@ We collected room climate data at three different locations under controlled con
 
 The floor plan of each location can found in this repository.
 
-For more details, please see our publication.
+For more details, please see our publication [1].
 
 ## Format of Data
 
@@ -31,4 +31,4 @@ Each measurement consists of following information:
 
 ## Publication
 
-
+[1] ...

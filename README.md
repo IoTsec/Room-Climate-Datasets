@@ -1,22 +1,20 @@
 # Room Climate Datasets
 
-[UNDER CONSTRUCTION]
-
 Room climate data, i.e., temperature and relative humidity, is supected to leak privacy-sensitive information, e.g., the number of occupants in the room or even the activity of these occupants. We evaluated this privacy threat with an experimental study, in which we measured room climate data while one or two occupant(s) performed a pre-defined sequence of tasks.
 
-To encourage further research on IoT privacy issues, we publish our collected sensor data (with groundtruth) as open data sets in this repository. If you use these datasets in a publication, please reference [1].
+To encourage further research on IoT privacy issues, we publish our collected sensor data (with groundtruth) as open data sets in this repository. If you use these datasets in a publication, cite reference [1].
 
-## Experimental Setup
+## Experimental Design
 
 We collected room climate data at three different locations in form of controlled experiments. The locations are denoted as A, B, and C. 
-The floor plan of each location can found in this repository.
+Each location was eqipped with 3 to 5 room climate sensor nodes at different postions. The floor plan of each location, also including the positions of the sensor nodes, can found in this repository.
 
 For more details about the experimental design, please see our publication [1], Section 4.
 
 ## Format of Data
 
 The datasets are split according to their location in the directories `datasets-location_X`.
-Each measurement file `room_climate-location_X-measurementYY.csv` contains a series of subsequential room climate measurements. 
+Each measurement file `room_climate-location_X-measurementYY.csv` contains a series of subsequential room climate measurements. Please note that each measurement file contains measurements of multiple sensor nodes.
 
 Each measurement consists of following information:
 

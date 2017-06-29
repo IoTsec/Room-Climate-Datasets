@@ -24,14 +24,16 @@ Each measurement consists of following information:
 * `<AbsT>`: Absolute timestamp [ms]
 * `<RelT>`: Relative timestamp [s]
 * `<NID>`: Node ID
-* `<Temp>`: Temperature [°C]
-* `<RelH>`: Relative Humidity [%]
-* `<L1>`: Light Sensor 1 (Wavelength) [nm]
-* `<L2>`: Light Sensor 2 (Wavelength) [nm]
-* `<Occ>`: Number of occupants (0, 1, 2)
-* `<Act>`: Activity of occupant(s) (0 = n/a, 1 = read, 2 = stand, 3 = walk, 4 = work)
-* `<Door>`: State of Door (0 = closed, 1 = open)
-* `<Win>`: State of Window (0 = closed, 1 = open)
+* Sensor Data:
+  * `<Temp>`: Temperature [°C]
+  * `<RelH>`: Relative Humidity [%]
+  * `<L1>`: Light Sensor 1 (Wavelength) [nm]
+  * `<L2>`: Light Sensor 2 (Wavelength) [nm]
+* Groundtruth:
+  * `<Occ>`: Number of occupants (0, 1, 2)
+  * `<Act>`: Activity of occupant(s) (0 = n/a, 1 = read, 2 = stand, 3 = walk, 4 = work)
+  * `<Door>`: State of Door (0 = closed, 1 = open)
+  * `<Win>`: State of Window (0 = closed, 1 = open)
 
 ## Publication
 
